@@ -40,3 +40,11 @@ test(
 		t.is(v, '1.2.3');
 	}
 );
+
+test(
+	"CFBundleShortVersionString garbage in, garbage out",
+	t => {
+		const v = getCFBundleShortVersionString('garbage');
+		t.is(v, 'garbage');
+	}
+);
