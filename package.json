@@ -1,5 +1,5 @@
 {
-  "name": "react-native-version",
+  "name": "@synconset/react-native-version",
   "description": "Version your React Native or Expo app in a `npm version` fashion.",
   "license": "MIT",
   "author": "Martin Stovicek",
